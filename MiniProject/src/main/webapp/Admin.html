@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form action="upload" method="post" enctype="multipart/form-data" class="form">
+        <div class="login loginu">
+            <div class="right">
+                <h1 class="title">Welcome</h1>
+                <p class="para">Welcome back you have been missed!</p>
+                
+                <div class="form-group">
+                    <label for="pname" class="label">Product_Name:</label>
+                    <input type="text" id="pname" name="product-name" placeholder="Product-name" class="user upload input-field" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="price" class="label">Price:</label>
+                    <input type="text" id="price" name="price" placeholder="Price" class="pass uploadp input-field" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="description" class="label">Description:</label>
+                    <textarea id="description" name="description" class="uploadt texta input-field" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="upload" class="label">Upload Image:</label>
+                    <input type="file" id="upload" name="upload" class="uploadl input-field" required>
+                </div>
+
+                <button type="submit" class="btn">Upload</button>
+            </div>
+        </div>
+    </form>                
+</body>
+</html>
